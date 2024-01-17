@@ -1,0 +1,851 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:34:9-43:20
+	android:grantUriPermissions
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:38:13-47
+	android:authorities
+		INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:35:13-64
+	android:exported
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:36:13-62
+manifest
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:2:1-58:12
+MERGED from [com.google.accompanist:accompanist-permissions:0.32.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\11666b03f8ff092f60b2f490c733b3a4\transformed\jetified-accompanist-permissions-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [io.coil-kt:coil-compose:2.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\db26e4215116447b44bdc15ca7726f5b\transformed\jetified-coil-compose-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.31.4-beta] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f671f9416dcfffd6cdb018374a6902ce\transformed\jetified-accompanist-systemuicontroller-0.31.4-beta\AndroidManifest.xml:17:1-25:12
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.28] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\26021e07fe27ae14ee0fba7f06599fbb\transformed\jetified-chromecast-sender-0.28\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ea90e34cefecaca7fb85ebac1b1afeb1\transformed\jetified-coil-compose-base-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4a0b726eaad487283bd53b615629ef03\transformed\jetified-coil-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-ktx:2.5.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9e5b32bcea644136eac9a3e47b48efcc\transformed\jetified-room-ktx-2.5.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.5.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dd03c5659ef14f0677708bd9863c8999\transformed\room-runtime-2.5.2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\243fb46ed554fe5721efe1dee189fd59\transformed\jetified-core-12.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\40e17b5f7e2f556bcabb1c2f120d2c73\transformed\jetified-accompanist-drawablepainter-0.30.1\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.compose.material3:material3:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d63820b558cab5c6c7260a285d73f7f4\transformed\jetified-material3-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\26dded9fb8938b16cb23d85a43423d06\transformed\jetified-hilt-navigation-compose-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.hilt:hilt-navigation:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25f869315a0f120cf5bcf86fcd6f105e\transformed\jetified-hilt-navigation-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.45] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\5b1de660a4df2049c8c50ebe225d832d\transformed\jetified-hilt-android-2.45\AndroidManifest.xml:16:1-19:12
+MERGED from [com.github.bumptech.glide:glide:4.13.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\711207bdf521b401d8a4585c1a3a0b82\transformed\jetified-glide-4.13.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:17:1-73:12
+MERGED from [io.github.vejei.viewpagerindicator:viewpagerindicator:1.0.0-alpha.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\49199bf6653d4d77d510df00818dbf28\transformed\jetified-viewpagerindicator-1.0.0-alpha.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-common:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d5a29c4b4b2b9003fdc73fd563fd7dc2\transformed\navigation-common-2.7.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b3f828c96e5d5f54f8129c71c89e6e1e\transformed\navigation-common-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ee50bfa7d274bfa5ad6b97c3055c735e\transformed\navigation-runtime-2.7.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\766863c271089af512d8ba2c58b66076\transformed\navigation-runtime-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\a744deef840e5ad6700a9ed06934aa1f\transformed\navigation-fragment-2.7.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-compose:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\edb06dc54b200ef4ae4e203e69ba202a\transformed\jetified-navigation-compose-2.7.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\6953e86f2b75e63ef3c034d010858661\transformed\navigation-fragment-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2e15444f021313830d163a55b1a70037\transformed\navigation-ui-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4a3874ba20db735b5d84853d1d1e5d36\transformed\navigation-ui-2.7.5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.4.0-beta01] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b99e1bc3c4410b669318cafeec2915b4\transformed\material-1.4.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9bae8a5e9981299846ee1d9968d77746\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e145f90f26b7b568209b0ee8393c0ed3\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8821d1610d73499fd8193bfda477ab95\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\c86cf937df1b9deecd2ccc9f66f9e95f\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:2:1-30:12
+MERGED from [com.google.android.gms:play-services-cast:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b60e39f0f278b0912c5f1ef5666560a3\transformed\jetified-play-services-cast-21.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\80c1252bcb1cbc157d34eb191b200e17\transformed\jetified-play-services-flags-18.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\78d2170d388c1c912111be19b3885b54\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\fb3d7f751f8e46f180956e5d682b9cd2\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dfc6e3589def98d30374e858cbabb741\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.paging:paging-runtime:3.2.0-rc01] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\73ea743f37574f811c1ff1054e4dfbb6\transformed\paging-runtime-3.2.0-rc01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.paging:paging-compose:3.2.0-rc01] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f2ba3e6e26bed670a0af41773decb97c\transformed\jetified-paging-compose-3.2.0-rc01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\245eec1f38f456462ba7af08ed7183d9\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\a807ac47fe7e5b3b9b2720c28979d6bd\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.mediarouter:mediarouter:1.3.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9613849e285f44d58f0ec51d30f7a8e8\transformed\mediarouter-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.palette:palette:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d3b9f3a0d1ee25266cf1be9d76f95b9c\transformed\palette-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2fd0dc821542686883c259e685c848ea\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\96385d468c3e03e5ebda9d38dfc0575f\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [br.com.simplepass:loading-button-android:2.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ac8814a60d5971040368b22d603cd7af\transformed\jetified-loading-button-android-2.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2cffe7f3c4ce8311ea49de73154644c5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [io.coil-kt:coil-base:2.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\287a9851de5e9b086950241b54ba6651\transformed\jetified-coil-base-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4ef9fb4a17eb544e02f36b9823050b46\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d8c421660ed2e24cfd2f292fd658a0dc\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8cd714048c66c0598d5eeb10f1852996\transformed\jetified-animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\a516b57f61acee4d2200d9868bd54d6a\transformed\jetified-animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\5a279ece1106e1d595fc7682c1272b3d\transformed\jetified-foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e8457149e7c7cebc2cd87ab4601c1064\transformed\jetified-foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9ab232a02230612575e838ad45a4fc5f\transformed\jetified-ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\cb39d30b658d73af954785643765712a\transformed\jetified-ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7b3196195f727741deca70b9ae3c1eaa\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\49fcb2187461b565177cd9c8d770cc7d\transformed\jetified-ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0738adda3a5408bf86c1b6cee7e08af7\transformed\jetified-ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\72ab257e7f2626f584646e051ffeb491\transformed\jetified-ui-test-manifest-1.5.4\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ee03f0e1cde71ff44b28951b2e81a15c\transformed\jetified-ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e4677e00306ddd1b8d7d1ed4f6de620c\transformed\jetified-ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7f451f4f05c50c16a5e8735348bb44e2\transformed\jetified-ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\a1cc1feacc5f352b115e70ba1c37366d\transformed\jetified-material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01d6a3b910d6a9785fdffd51375a1d76\transformed\jetified-material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\41cc5bbf16001263d35d58ff5038e188\transformed\jetified-material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\704219d74b806421f0c22ad11eca749f\transformed\jetified-material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\293921e91f62c34926004bf90e35e996\transformed\jetified-ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\fdc86d4e58a68b6d0feaefcabe7d0418\transformed\jetified-emoji2-views-helper-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e7edebfc1483eaa76693d3818c6937f9\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\aa91cce9f08d1c82548be1a22e090205\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\aec5284de195a978fbf29539f87bce69\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4ff69d5597b18a5f7a6577fcdd2612ae\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7833e6adca56a3243608e34c2726f1ed\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0dbc23223d622f06bacf4aa88dd7bb0c\transformed\jetified-lifecycle-viewmodel-compose-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\fed55c6ca6b6f069cc9c07ce6fc5ab20\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\5be13cc723991a34c13f35bf4454f991\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f9333803f6b56913edb3dc94b923db74\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\38910b848c52cd8b10eeeaa72fc0b56d\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\bf2189a8f6450a5f1b6062277a253ace\transformed\jetified-lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\cd8630cb6b0223b5d6b6f06168028752\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4b2e1cef71f3300226fe5bfff57f5f28\transformed\jetified-runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\13d9a3fa8a85933023c20941acd67e85\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0ece732707b592592a6cb0384ae64ed6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\479e75cf3c5736abcd675c6727752d99\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8019836d64696ecba7f6cfabe8f7d734\transformed\jetified-activity-1.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8fa28371cee1f994347829b2a7077f30\transformed\jetified-activity-ktx-1.8.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.8.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7e436b33c3bf9dcf372b21b1dbf13982\transformed\jetified-activity-compose-1.8.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0aee1d42a1021db165538191aa9c779c\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\84450a52d98ff13d5c4aae195ce46e39\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\60e23865bdf934c342f45583c81ac608\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f038de5ab76f33dabfa6b37fc9ed70b8\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2514eadbfbac83b777cb4857db1b3462\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4d0b5f03a6da627fd928d5638d95d231\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\bc31eef5a3c6b9ec2777c2a6b9d057f8\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4fe6655e51ec649b5c5209501d0fa0a0\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.6.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4a3d5820d7d333970a1db31abd3c2353\transformed\media-1.6.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\bd7f8eff0e34e11d40b8efdcfd88caa2\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2922bb6ea5fdc5944150fbe75c9ed59d\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f10237079efcc1b07cd83d590a7a2ea8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\90cbbebf56259d2412b97a557b86aa44\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\6e0923af1670fd197e7f8c367fa15510\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dae268c0b5a230a89ad7edd770c248cd\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\1223557910a0fa130a2c67278dd76073\transformed\jetified-core-ktx-1.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\95b0e489f3162326c6aab713fe4a6a63\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\430a4ab9230b5fcc70ba742fb7dd92ef\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\c6f022017015d9ecb6f0d949b5b0f39b\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\94e66cc9df73988ba137ce19bae0a6f7\transformed\jetified-core-splashscreen-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b05ee6f96390c632432556a64ae321d6\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\bb3bc940dd7c518ec813f827c592dee1\transformed\sqlite-2.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [io.github.aakira:napier-android-debug:1.4.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\431b45468e0b45d5053d4bd0a3f097c9\transformed\jetified-napier-debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\151e22c39bf1079baf8ae7ed077ff10b\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\174f80dce68c01e821530eb68e4522df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\78772ff1cdcc7eb5de3071211469fc40\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\de5b8cc42a7eed02a16142ab6a231fb4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\262b223a5ff5b328aeb78807b8e92663\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\059620481eb11f7875a4772b139e5dca\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4ddaf0359cf3f6ed2cc6357d298fc4d9\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d52a8e6fbb317be211bbf318b986411a\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\020bbe466effc6878bc570a1a2b68204\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\86d10f81738cf11bbeb1f4abebc95a8d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3f7fb4c4637dea2e485364ccbd6bf20a\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e42bb21344bc4347475228198d72532e\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\6aeb89f32b59264e79af9db95e4bf4e4\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\c84d55aad6463a6e74f822cbf6dc512d\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\16014eb7491c2a494324f8a99ef2d6d2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e313d6bc859e2e27665a9e593aaf6073\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.45] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\05b5f23011e574b51d747d8f115e226e\transformed\jetified-dagger-lint-aar-2.45\AndroidManifest.xml:16:1-19:12
+	package
+		INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:5:22-62
+uses-feature#android.hardware.camera
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:6:5-8:36
+	android:required
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:8:9-33
+	android:name
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:7:9-47
+application
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:10:5-45:19
+INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:10:5-45:19
+MERGED from [androidx.room:room-runtime:2.5.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dd03c5659ef14f0677708bd9863c8999\transformed\room-runtime-2.5.2\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dd03c5659ef14f0677708bd9863c8999\transformed\room-runtime-2.5.2\AndroidManifest.xml:23:5-29:19
+MERGED from [com.github.bumptech.glide:glide:4.13.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\711207bdf521b401d8a4585c1a3a0b82\transformed\jetified-glide-4.13.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.13.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\711207bdf521b401d8a4585c1a3a0b82\transformed\jetified-glide-4.13.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.android.material:material:1.4.0-beta01] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b99e1bc3c4410b669318cafeec2915b4\transformed\material-1.4.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0-beta01] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b99e1bc3c4410b669318cafeec2915b4\transformed\material-1.4.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8821d1610d73499fd8193bfda477ab95\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8821d1610d73499fd8193bfda477ab95\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\c86cf937df1b9deecd2ccc9f66f9e95f\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\c86cf937df1b9deecd2ccc9f66f9e95f\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:16:5-28:19
+MERGED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:16:5-28:19
+MERGED from [com.google.android.gms:play-services-cast:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b60e39f0f278b0912c5f1ef5666560a3\transformed\jetified-play-services-cast-21.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b60e39f0f278b0912c5f1ef5666560a3\transformed\jetified-play-services-cast-21.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\78d2170d388c1c912111be19b3885b54\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\78d2170d388c1c912111be19b3885b54\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2cffe7f3c4ce8311ea49de73154644c5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2cffe7f3c4ce8311ea49de73154644c5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\72ab257e7f2626f584646e051ffeb491\transformed\jetified-ui-test-manifest-1.5.4\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\72ab257e7f2626f584646e051ffeb491\transformed\jetified-ui-test-manifest-1.5.4\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7f451f4f05c50c16a5e8735348bb44e2\transformed\jetified-ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7f451f4f05c50c16a5e8735348bb44e2\transformed\jetified-ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e7edebfc1483eaa76693d3818c6937f9\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e7edebfc1483eaa76693d3818c6937f9\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\aa91cce9f08d1c82548be1a22e090205\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\aa91cce9f08d1c82548be1a22e090205\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\13d9a3fa8a85933023c20941acd67e85\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\13d9a3fa8a85933023c20941acd67e85\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0ece732707b592592a6cb0384ae64ed6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0ece732707b592592a6cb0384ae64ed6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2922bb6ea5fdc5944150fbe75c9ed59d\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2922bb6ea5fdc5944150fbe75c9ed59d\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:28:5-89
+MERGED from [de.hdodenhof:circleimageview:3.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\c6f022017015d9ecb6f0d949b5b0f39b\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\c6f022017015d9ecb6f0d949b5b0f39b\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\151e22c39bf1079baf8ae7ed077ff10b\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\151e22c39bf1079baf8ae7ed077ff10b\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\174f80dce68c01e821530eb68e4522df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\174f80dce68c01e821530eb68e4522df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\86d10f81738cf11bbeb1f4abebc95a8d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\86d10f81738cf11bbeb1f4abebc95a8d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:16:9-41
+	android:fullBackupContent
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:14:9-54
+	android:roundIcon
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:17:9-54
+	tools:targetApi
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:20:9-29
+	android:icon
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:19:9-50
+	android:dataExtractionRules
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:13:9-65
+	tools:replace
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:21:9-52
+	android:name
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:11:9-39
+activity#com.dicoding.gymtoolkit.MainActivity
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:23:9-32:20
+	android:label
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:26:13-45
+	android:exported
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:25:13-36
+	android:theme
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:27:13-54
+	android:name
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:24:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:30:27-74
+queries
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:47:5-56:15
+MERGED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:12:5-14:15
+MERGED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:12:5-14:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:48:9-52:18
+action#android.intent.action.VIEW
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:49:13-65
+	android:name
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:49:21-62
+category#android.intent.category.BROWSABLE
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:50:13-74
+	android:name
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:50:23-71
+data
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:51:13-44
+	android:scheme
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:51:19-41
+intent#action:name:android.intent.action.SEND
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:53:9-55:18
+action#android.intent.action.SEND
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:54:13-64
+	android:name
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:54:21-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:40:13-42:57
+	android:resource
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:42:17-54
+	android:name
+		ADDED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml:41:17-67
+uses-sdk
+INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml
+INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml
+MERGED from [com.google.accompanist:accompanist-permissions:0.32.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\11666b03f8ff092f60b2f490c733b3a4\transformed\jetified-accompanist-permissions-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-permissions:0.32.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\11666b03f8ff092f60b2f490c733b3a4\transformed\jetified-accompanist-permissions-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [io.coil-kt:coil-compose:2.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\db26e4215116447b44bdc15ca7726f5b\transformed\jetified-coil-compose-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\db26e4215116447b44bdc15ca7726f5b\transformed\jetified-coil-compose-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.31.4-beta] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f671f9416dcfffd6cdb018374a6902ce\transformed\jetified-accompanist-systemuicontroller-0.31.4-beta\AndroidManifest.xml:21:5-23:42
+MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.31.4-beta] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f671f9416dcfffd6cdb018374a6902ce\transformed\jetified-accompanist-systemuicontroller-0.31.4-beta\AndroidManifest.xml:21:5-23:42
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.28] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\26021e07fe27ae14ee0fba7f06599fbb\transformed\jetified-chromecast-sender-0.28\AndroidManifest.xml:5:5-44
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.28] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\26021e07fe27ae14ee0fba7f06599fbb\transformed\jetified-chromecast-sender-0.28\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ea90e34cefecaca7fb85ebac1b1afeb1\transformed\jetified-coil-compose-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ea90e34cefecaca7fb85ebac1b1afeb1\transformed\jetified-coil-compose-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4a0b726eaad487283bd53b615629ef03\transformed\jetified-coil-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4a0b726eaad487283bd53b615629ef03\transformed\jetified-coil-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-ktx:2.5.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9e5b32bcea644136eac9a3e47b48efcc\transformed\jetified-room-ktx-2.5.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9e5b32bcea644136eac9a3e47b48efcc\transformed\jetified-room-ktx-2.5.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dd03c5659ef14f0677708bd9863c8999\transformed\room-runtime-2.5.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dd03c5659ef14f0677708bd9863c8999\transformed\room-runtime-2.5.2\AndroidManifest.xml:21:5-44
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\243fb46ed554fe5721efe1dee189fd59\transformed\jetified-core-12.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\243fb46ed554fe5721efe1dee189fd59\transformed\jetified-core-12.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\40e17b5f7e2f556bcabb1c2f120d2c73\transformed\jetified-accompanist-drawablepainter-0.30.1\AndroidManifest.xml:21:5-23:42
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\40e17b5f7e2f556bcabb1c2f120d2c73\transformed\jetified-accompanist-drawablepainter-0.30.1\AndroidManifest.xml:21:5-23:42
+MERGED from [androidx.compose.material3:material3:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d63820b558cab5c6c7260a285d73f7f4\transformed\jetified-material3-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d63820b558cab5c6c7260a285d73f7f4\transformed\jetified-material3-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\26dded9fb8938b16cb23d85a43423d06\transformed\jetified-hilt-navigation-compose-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\26dded9fb8938b16cb23d85a43423d06\transformed\jetified-hilt-navigation-compose-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-navigation:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25f869315a0f120cf5bcf86fcd6f105e\transformed\jetified-hilt-navigation-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-navigation:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25f869315a0f120cf5bcf86fcd6f105e\transformed\jetified-hilt-navigation-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.45] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\5b1de660a4df2049c8c50ebe225d832d\transformed\jetified-hilt-android-2.45\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.45] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\5b1de660a4df2049c8c50ebe225d832d\transformed\jetified-hilt-android-2.45\AndroidManifest.xml:18:3-42
+MERGED from [com.github.bumptech.glide:glide:4.13.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\711207bdf521b401d8a4585c1a3a0b82\transformed\jetified-glide-4.13.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.13.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\711207bdf521b401d8a4585c1a3a0b82\transformed\jetified-glide-4.13.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:21:5-44
+MERGED from [io.github.vejei.viewpagerindicator:viewpagerindicator:1.0.0-alpha.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\49199bf6653d4d77d510df00818dbf28\transformed\jetified-viewpagerindicator-1.0.0-alpha.1\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.vejei.viewpagerindicator:viewpagerindicator:1.0.0-alpha.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\49199bf6653d4d77d510df00818dbf28\transformed\jetified-viewpagerindicator-1.0.0-alpha.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-common:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d5a29c4b4b2b9003fdc73fd563fd7dc2\transformed\navigation-common-2.7.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d5a29c4b4b2b9003fdc73fd563fd7dc2\transformed\navigation-common-2.7.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b3f828c96e5d5f54f8129c71c89e6e1e\transformed\navigation-common-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b3f828c96e5d5f54f8129c71c89e6e1e\transformed\navigation-common-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ee50bfa7d274bfa5ad6b97c3055c735e\transformed\navigation-runtime-2.7.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ee50bfa7d274bfa5ad6b97c3055c735e\transformed\navigation-runtime-2.7.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\766863c271089af512d8ba2c58b66076\transformed\navigation-runtime-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\766863c271089af512d8ba2c58b66076\transformed\navigation-runtime-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\a744deef840e5ad6700a9ed06934aa1f\transformed\navigation-fragment-2.7.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\a744deef840e5ad6700a9ed06934aa1f\transformed\navigation-fragment-2.7.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\edb06dc54b200ef4ae4e203e69ba202a\transformed\jetified-navigation-compose-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\edb06dc54b200ef4ae4e203e69ba202a\transformed\jetified-navigation-compose-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\6953e86f2b75e63ef3c034d010858661\transformed\navigation-fragment-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\6953e86f2b75e63ef3c034d010858661\transformed\navigation-fragment-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2e15444f021313830d163a55b1a70037\transformed\navigation-ui-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2e15444f021313830d163a55b1a70037\transformed\navigation-ui-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4a3874ba20db735b5d84853d1d1e5d36\transformed\navigation-ui-2.7.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.5] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4a3874ba20db735b5d84853d1d1e5d36\transformed\navigation-ui-2.7.5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0-beta01] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b99e1bc3c4410b669318cafeec2915b4\transformed\material-1.4.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0-beta01] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b99e1bc3c4410b669318cafeec2915b4\transformed\material-1.4.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9bae8a5e9981299846ee1d9968d77746\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9bae8a5e9981299846ee1d9968d77746\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e145f90f26b7b568209b0ee8393c0ed3\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e145f90f26b7b568209b0ee8393c0ed3\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8821d1610d73499fd8193bfda477ab95\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8821d1610d73499fd8193bfda477ab95\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\c86cf937df1b9deecd2ccc9f66f9e95f\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\c86cf937df1b9deecd2ccc9f66f9e95f\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-cast:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b60e39f0f278b0912c5f1ef5666560a3\transformed\jetified-play-services-cast-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b60e39f0f278b0912c5f1ef5666560a3\transformed\jetified-play-services-cast-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\80c1252bcb1cbc157d34eb191b200e17\transformed\jetified-play-services-flags-18.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\80c1252bcb1cbc157d34eb191b200e17\transformed\jetified-play-services-flags-18.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\78d2170d388c1c912111be19b3885b54\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\78d2170d388c1c912111be19b3885b54\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\fb3d7f751f8e46f180956e5d682b9cd2\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\fb3d7f751f8e46f180956e5d682b9cd2\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dfc6e3589def98d30374e858cbabb741\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dfc6e3589def98d30374e858cbabb741\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-runtime:3.2.0-rc01] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\73ea743f37574f811c1ff1054e4dfbb6\transformed\paging-runtime-3.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.paging:paging-runtime:3.2.0-rc01] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\73ea743f37574f811c1ff1054e4dfbb6\transformed\paging-runtime-3.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.paging:paging-compose:3.2.0-rc01] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f2ba3e6e26bed670a0af41773decb97c\transformed\jetified-paging-compose-3.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.paging:paging-compose:3.2.0-rc01] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f2ba3e6e26bed670a0af41773decb97c\transformed\jetified-paging-compose-3.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\245eec1f38f456462ba7af08ed7183d9\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\245eec1f38f456462ba7af08ed7183d9\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\a807ac47fe7e5b3b9b2720c28979d6bd\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\a807ac47fe7e5b3b9b2720c28979d6bd\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.mediarouter:mediarouter:1.3.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9613849e285f44d58f0ec51d30f7a8e8\transformed\mediarouter-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.mediarouter:mediarouter:1.3.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9613849e285f44d58f0ec51d30f7a8e8\transformed\mediarouter-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.palette:palette:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d3b9f3a0d1ee25266cf1be9d76f95b9c\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d3b9f3a0d1ee25266cf1be9d76f95b9c\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2fd0dc821542686883c259e685c848ea\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2fd0dc821542686883c259e685c848ea\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\96385d468c3e03e5ebda9d38dfc0575f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\96385d468c3e03e5ebda9d38dfc0575f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [br.com.simplepass:loading-button-android:2.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ac8814a60d5971040368b22d603cd7af\transformed\jetified-loading-button-android-2.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [br.com.simplepass:loading-button-android:2.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ac8814a60d5971040368b22d603cd7af\transformed\jetified-loading-button-android-2.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2cffe7f3c4ce8311ea49de73154644c5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2cffe7f3c4ce8311ea49de73154644c5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:2.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\287a9851de5e9b086950241b54ba6651\transformed\jetified-coil-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\287a9851de5e9b086950241b54ba6651\transformed\jetified-coil-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4ef9fb4a17eb544e02f36b9823050b46\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4ef9fb4a17eb544e02f36b9823050b46\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d8c421660ed2e24cfd2f292fd658a0dc\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d8c421660ed2e24cfd2f292fd658a0dc\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8cd714048c66c0598d5eeb10f1852996\transformed\jetified-animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8cd714048c66c0598d5eeb10f1852996\transformed\jetified-animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\a516b57f61acee4d2200d9868bd54d6a\transformed\jetified-animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\a516b57f61acee4d2200d9868bd54d6a\transformed\jetified-animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\5a279ece1106e1d595fc7682c1272b3d\transformed\jetified-foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\5a279ece1106e1d595fc7682c1272b3d\transformed\jetified-foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e8457149e7c7cebc2cd87ab4601c1064\transformed\jetified-foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e8457149e7c7cebc2cd87ab4601c1064\transformed\jetified-foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9ab232a02230612575e838ad45a4fc5f\transformed\jetified-ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9ab232a02230612575e838ad45a4fc5f\transformed\jetified-ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\cb39d30b658d73af954785643765712a\transformed\jetified-ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\cb39d30b658d73af954785643765712a\transformed\jetified-ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7b3196195f727741deca70b9ae3c1eaa\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7b3196195f727741deca70b9ae3c1eaa\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\49fcb2187461b565177cd9c8d770cc7d\transformed\jetified-ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\49fcb2187461b565177cd9c8d770cc7d\transformed\jetified-ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0738adda3a5408bf86c1b6cee7e08af7\transformed\jetified-ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0738adda3a5408bf86c1b6cee7e08af7\transformed\jetified-ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\72ab257e7f2626f584646e051ffeb491\transformed\jetified-ui-test-manifest-1.5.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\72ab257e7f2626f584646e051ffeb491\transformed\jetified-ui-test-manifest-1.5.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ee03f0e1cde71ff44b28951b2e81a15c\transformed\jetified-ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ee03f0e1cde71ff44b28951b2e81a15c\transformed\jetified-ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e4677e00306ddd1b8d7d1ed4f6de620c\transformed\jetified-ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e4677e00306ddd1b8d7d1ed4f6de620c\transformed\jetified-ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7f451f4f05c50c16a5e8735348bb44e2\transformed\jetified-ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7f451f4f05c50c16a5e8735348bb44e2\transformed\jetified-ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\a1cc1feacc5f352b115e70ba1c37366d\transformed\jetified-material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\a1cc1feacc5f352b115e70ba1c37366d\transformed\jetified-material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01d6a3b910d6a9785fdffd51375a1d76\transformed\jetified-material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01d6a3b910d6a9785fdffd51375a1d76\transformed\jetified-material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\41cc5bbf16001263d35d58ff5038e188\transformed\jetified-material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\41cc5bbf16001263d35d58ff5038e188\transformed\jetified-material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\704219d74b806421f0c22ad11eca749f\transformed\jetified-material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\704219d74b806421f0c22ad11eca749f\transformed\jetified-material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\293921e91f62c34926004bf90e35e996\transformed\jetified-ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\293921e91f62c34926004bf90e35e996\transformed\jetified-ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\fdc86d4e58a68b6d0feaefcabe7d0418\transformed\jetified-emoji2-views-helper-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\fdc86d4e58a68b6d0feaefcabe7d0418\transformed\jetified-emoji2-views-helper-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e7edebfc1483eaa76693d3818c6937f9\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e7edebfc1483eaa76693d3818c6937f9\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\aa91cce9f08d1c82548be1a22e090205\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\aa91cce9f08d1c82548be1a22e090205\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\aec5284de195a978fbf29539f87bce69\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\aec5284de195a978fbf29539f87bce69\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4ff69d5597b18a5f7a6577fcdd2612ae\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4ff69d5597b18a5f7a6577fcdd2612ae\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7833e6adca56a3243608e34c2726f1ed\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7833e6adca56a3243608e34c2726f1ed\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0dbc23223d622f06bacf4aa88dd7bb0c\transformed\jetified-lifecycle-viewmodel-compose-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0dbc23223d622f06bacf4aa88dd7bb0c\transformed\jetified-lifecycle-viewmodel-compose-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\fed55c6ca6b6f069cc9c07ce6fc5ab20\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\fed55c6ca6b6f069cc9c07ce6fc5ab20\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\5be13cc723991a34c13f35bf4454f991\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\5be13cc723991a34c13f35bf4454f991\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f9333803f6b56913edb3dc94b923db74\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f9333803f6b56913edb3dc94b923db74\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\38910b848c52cd8b10eeeaa72fc0b56d\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\38910b848c52cd8b10eeeaa72fc0b56d\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\bf2189a8f6450a5f1b6062277a253ace\transformed\jetified-lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\bf2189a8f6450a5f1b6062277a253ace\transformed\jetified-lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\cd8630cb6b0223b5d6b6f06168028752\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\cd8630cb6b0223b5d6b6f06168028752\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4b2e1cef71f3300226fe5bfff57f5f28\transformed\jetified-runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4b2e1cef71f3300226fe5bfff57f5f28\transformed\jetified-runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\13d9a3fa8a85933023c20941acd67e85\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\13d9a3fa8a85933023c20941acd67e85\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0ece732707b592592a6cb0384ae64ed6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0ece732707b592592a6cb0384ae64ed6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\479e75cf3c5736abcd675c6727752d99\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\479e75cf3c5736abcd675c6727752d99\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8019836d64696ecba7f6cfabe8f7d734\transformed\jetified-activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8019836d64696ecba7f6cfabe8f7d734\transformed\jetified-activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8fa28371cee1f994347829b2a7077f30\transformed\jetified-activity-ktx-1.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\8fa28371cee1f994347829b2a7077f30\transformed\jetified-activity-ktx-1.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7e436b33c3bf9dcf372b21b1dbf13982\transformed\jetified-activity-compose-1.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7e436b33c3bf9dcf372b21b1dbf13982\transformed\jetified-activity-compose-1.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0aee1d42a1021db165538191aa9c779c\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0aee1d42a1021db165538191aa9c779c\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\84450a52d98ff13d5c4aae195ce46e39\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\84450a52d98ff13d5c4aae195ce46e39\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\60e23865bdf934c342f45583c81ac608\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\60e23865bdf934c342f45583c81ac608\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f038de5ab76f33dabfa6b37fc9ed70b8\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f038de5ab76f33dabfa6b37fc9ed70b8\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2514eadbfbac83b777cb4857db1b3462\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2514eadbfbac83b777cb4857db1b3462\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4d0b5f03a6da627fd928d5638d95d231\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4d0b5f03a6da627fd928d5638d95d231\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\bc31eef5a3c6b9ec2777c2a6b9d057f8\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\bc31eef5a3c6b9ec2777c2a6b9d057f8\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4fe6655e51ec649b5c5209501d0fa0a0\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4fe6655e51ec649b5c5209501d0fa0a0\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4a3d5820d7d333970a1db31abd3c2353\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4a3d5820d7d333970a1db31abd3c2353\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\bd7f8eff0e34e11d40b8efdcfd88caa2\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\bd7f8eff0e34e11d40b8efdcfd88caa2\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2922bb6ea5fdc5944150fbe75c9ed59d\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2922bb6ea5fdc5944150fbe75c9ed59d\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f10237079efcc1b07cd83d590a7a2ea8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f10237079efcc1b07cd83d590a7a2ea8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\90cbbebf56259d2412b97a557b86aa44\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\90cbbebf56259d2412b97a557b86aa44\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\6e0923af1670fd197e7f8c367fa15510\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\6e0923af1670fd197e7f8c367fa15510\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dae268c0b5a230a89ad7edd770c248cd\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dae268c0b5a230a89ad7edd770c248cd\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\1223557910a0fa130a2c67278dd76073\transformed\jetified-core-ktx-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\1223557910a0fa130a2c67278dd76073\transformed\jetified-core-ktx-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\95b0e489f3162326c6aab713fe4a6a63\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\95b0e489f3162326c6aab713fe4a6a63\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\430a4ab9230b5fcc70ba742fb7dd92ef\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\430a4ab9230b5fcc70ba742fb7dd92ef\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\c6f022017015d9ecb6f0d949b5b0f39b\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\c6f022017015d9ecb6f0d949b5b0f39b\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\94e66cc9df73988ba137ce19bae0a6f7\transformed\jetified-core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\94e66cc9df73988ba137ce19bae0a6f7\transformed\jetified-core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b05ee6f96390c632432556a64ae321d6\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b05ee6f96390c632432556a64ae321d6\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\bb3bc940dd7c518ec813f827c592dee1\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\bb3bc940dd7c518ec813f827c592dee1\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [io.github.aakira:napier-android-debug:1.4.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\431b45468e0b45d5053d4bd0a3f097c9\transformed\jetified-napier-debug\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.aakira:napier-android-debug:1.4.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\431b45468e0b45d5053d4bd0a3f097c9\transformed\jetified-napier-debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\151e22c39bf1079baf8ae7ed077ff10b\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\151e22c39bf1079baf8ae7ed077ff10b\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\174f80dce68c01e821530eb68e4522df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\174f80dce68c01e821530eb68e4522df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\78772ff1cdcc7eb5de3071211469fc40\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\78772ff1cdcc7eb5de3071211469fc40\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\de5b8cc42a7eed02a16142ab6a231fb4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\de5b8cc42a7eed02a16142ab6a231fb4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\262b223a5ff5b328aeb78807b8e92663\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\262b223a5ff5b328aeb78807b8e92663\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\059620481eb11f7875a4772b139e5dca\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\059620481eb11f7875a4772b139e5dca\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4ddaf0359cf3f6ed2cc6357d298fc4d9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\4ddaf0359cf3f6ed2cc6357d298fc4d9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d52a8e6fbb317be211bbf318b986411a\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\d52a8e6fbb317be211bbf318b986411a\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.cardview:cardview:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\020bbe466effc6878bc570a1a2b68204\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\020bbe466effc6878bc570a1a2b68204\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\86d10f81738cf11bbeb1f4abebc95a8d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\86d10f81738cf11bbeb1f4abebc95a8d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3f7fb4c4637dea2e485364ccbd6bf20a\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3f7fb4c4637dea2e485364ccbd6bf20a\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e42bb21344bc4347475228198d72532e\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e42bb21344bc4347475228198d72532e\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\6aeb89f32b59264e79af9db95e4bf4e4\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\6aeb89f32b59264e79af9db95e4bf4e4\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\c84d55aad6463a6e74f822cbf6dc512d\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\c84d55aad6463a6e74f822cbf6dc512d\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\16014eb7491c2a494324f8a99ef2d6d2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\16014eb7491c2a494324f8a99ef2d6d2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e313d6bc859e2e27665a9e593aaf6073\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e313d6bc859e2e27665a9e593aaf6073\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.45] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\05b5f23011e574b51d747d8f115e226e\transformed\jetified-dagger-lint-aar-2.45\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.45] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\05b5f23011e574b51d747d8f115e226e\transformed\jetified-dagger-lint-aar-2.45\AndroidManifest.xml:18:3-42
+	android:targetSdkVersion
+		INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml
+	tools:ignore
+		ADDED from [com.google.accompanist:accompanist-systemuicontroller:0.31.4-beta] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\f671f9416dcfffd6cdb018374a6902ce\transformed\jetified-accompanist-systemuicontroller-0.31.4-beta\AndroidManifest.xml:23:9-39
+	android:minSdkVersion
+		INJECTED from D:\Kuliah\Bangkit\Submission\BangkitCapstone\app\src\main\AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dd03c5659ef14f0677708bd9863c8999\transformed\room-runtime-2.5.2\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dd03c5659ef14f0677708bd9863c8999\transformed\room-runtime-2.5.2\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dd03c5659ef14f0677708bd9863c8999\transformed\room-runtime-2.5.2\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dd03c5659ef14f0677708bd9863c8999\transformed\room-runtime-2.5.2\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\dd03c5659ef14f0677708bd9863c8999\transformed\room-runtime-2.5.2\AndroidManifest.xml:25:13-74
+uses-permission#android.permission.INTERNET
+ADDED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\243fb46ed554fe5721efe1dee189fd59\transformed\jetified-core-12.0.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\243fb46ed554fe5721efe1dee189fd59\transformed\jetified-core-12.0.0\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\243fb46ed554fe5721efe1dee189fd59\transformed\jetified-core-12.0.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\243fb46ed554fe5721efe1dee189fd59\transformed\jetified-core-12.0.0\AndroidManifest.xml:8:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:33:13-43:29
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:36:27-73
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:66:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:65:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\3473494c21807a7c800fb1ce53f18aa4\transformed\jetified-firebase-auth-21.0.6\AndroidManifest.xml:68:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\01f6ff9bdebc9d3a5bb9ec28ed483e68\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:10:5-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:10:22-74
+package#com.google.android.gms.policy_cast_dynamite
+ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:13:9-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:13:18-76
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:18:13-91
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:21:9-24:61
+	android:exported
+		ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:23:13-37
+	android:foregroundServiceType
+		ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:24:13-58
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:22:13-96
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:21.2.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\9a966524a20948e695dbc2b3adf5cd1d\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:26:13-85
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\78d2170d388c1c912111be19b3885b54\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\78d2170d388c1c912111be19b3885b54\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\78d2170d388c1c912111be19b3885b54\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\78d2170d388c1c912111be19b3885b54\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\72ab257e7f2626f584646e051ffeb491\transformed\jetified-ui-test-manifest-1.5.4\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\72ab257e7f2626f584646e051ffeb491\transformed\jetified-ui-test-manifest-1.5.4\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\72ab257e7f2626f584646e051ffeb491\transformed\jetified-ui-test-manifest-1.5.4\AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7f451f4f05c50c16a5e8735348bb44e2\transformed\jetified-ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7f451f4f05c50c16a5e8735348bb44e2\transformed\jetified-ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7f451f4f05c50c16a5e8735348bb44e2\transformed\jetified-ui-tooling-release\AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e7edebfc1483eaa76693d3818c6937f9\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\aa91cce9f08d1c82548be1a22e090205\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\aa91cce9f08d1c82548be1a22e090205\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\174f80dce68c01e821530eb68e4522df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\174f80dce68c01e821530eb68e4522df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e7edebfc1483eaa76693d3818c6937f9\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e7edebfc1483eaa76693d3818c6937f9\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e7edebfc1483eaa76693d3818c6937f9\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e7edebfc1483eaa76693d3818c6937f9\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e7edebfc1483eaa76693d3818c6937f9\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e7edebfc1483eaa76693d3818c6937f9\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\e7edebfc1483eaa76693d3818c6937f9\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\aa91cce9f08d1c82548be1a22e090205\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\aa91cce9f08d1c82548be1a22e090205\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\aa91cce9f08d1c82548be1a22e090205\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0ece732707b592592a6cb0384ae64ed6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0ece732707b592592a6cb0384ae64ed6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\0ece732707b592592a6cb0384ae64ed6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2922bb6ea5fdc5944150fbe75c9ed59d\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2922bb6ea5fdc5944150fbe75c9ed59d\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2922bb6ea5fdc5944150fbe75c9ed59d\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2922bb6ea5fdc5944150fbe75c9ed59d\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2922bb6ea5fdc5944150fbe75c9ed59d\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\2922bb6ea5fdc5944150fbe75c9ed59d\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:23:9-81
+permission#com.dicoding.gymtoolkit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:26:22-94
+uses-permission#com.dicoding.gymtoolkit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.0] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\7179d9222085279d1a029bc73a01955f\transformed\core-1.10.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\b81ac456fb2bb43a91bb05528c473f68\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\ad208813af292fcc7c26ff76842982ae\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.3] D:\Kuliah\Bangkit\Submission\Simulasi AAD\course_schedule\caches\transforms-3\25e66402e06edf7d8e257d3957096562\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:33:13-132
