@@ -87,17 +87,6 @@ dependencies {
 
     implementation("io.coil-kt:coil-compose:2.4.0")
 
-//    //DEPENDENCY INJECTION
-//    //KOIN BASE
-//    val koin_version = ("3.4.2")
-//    implementation("io.insert-koin:koin-core:$koin_version")
-//    implementation("io.insert-koin:koin-android:$koin_version")
-//    implementation("io.insert-koin:koin-androidx-compose:3.4.6")
-//
-//    ////KOIN KSP
-//    val koin_ksp_version = "1.2.2"
-//    implementation("io.insert-koin:koin-annotations:$koin_ksp_version")
-//    ksp("io.insert-koin:koin-ksp-compiler:$koin_ksp_version")
 
     //loading button
     implementation("br.com.simplepass:loading-button-android:2.2.0")
@@ -157,10 +146,6 @@ dependencies {
     //Coroutines with firebase
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.5.1")
 
-
-
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.28")
-
-
 
 }
