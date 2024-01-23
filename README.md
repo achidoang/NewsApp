@@ -1,6 +1,6 @@
 # NewsApp
 
-Aplikasi ini memungkinkan user untuk membaca, menyebarkan, mem-bookmark berita
+Aplikasi ini memungkinkan user untuk membaca, menyebarkan, mem-bookmark berita yang dikembangkan menggunakan jetpack compose
 
 ## Gambaran Singkat
 
@@ -17,15 +17,19 @@ NewsApp adalah aplikasi Android yang dirancang untuk memberikan pengguna platfor
 
 <Tambahkan tangkapan layar atau GIF dari aplikasi Anda dalam tindakan.>
 
-![Tangkapan Layar 1](/path/ke/tangkapan_layar1.png)
-![Tangkapan Layar 2](/path/ke/tangkapan_layar2.png)
+![Tangkapan Layar 1](/screenshoot/ss1.jpeg)
+![Tangkapan Layar 2](/screenshoot/ss2.jpeg)
+![Tangkapan Layar 3](/screenshoot/ss3.jpeg)
+![Tangkapan Layar 4](/screenshoot/ss4.jpeg)
+![Tangkapan Layar 5](/screenshoot/ss5.jpeg)
+![Tangkapan Layar 6](/screenshoot/ss6.jpeg)
 <!-- Tambahkan lebih banyak tangkapan layar jika diperlukan -->
 
 ## Cara Penggunaan
 
 <Berikan petunjuk tentang cara menyiapkan dan menjalankan proyek Anda secara lokal. Sertakan dependensi atau konfigurasi apa pun yang mungkin diperlukan.>
 
-1. Klona repositori: `git clone https://github.com/<Nama-Pengguna-Anda>/<Nama-Proyek-Anda>.git`
+1. Klona repositori: `git clone https://github.com/achidoang/NewsApp.git`
 2. Buka proyek di Android Studio.
 3. Bangun dan jalankan aplikasi di emulator atau perangkat fisik.
 
